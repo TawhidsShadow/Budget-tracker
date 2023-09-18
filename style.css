@@ -17,7 +17,7 @@
 }
 
 .inner-wrap {
-   margin: 40px;
+   margin: 50px 100px;
 }
 
 .heading {
@@ -121,8 +121,8 @@
 
 .records .income,
 .records .expense {
-   min-width: 600px;
-   max-width: 100%;
+   min-width: 80%;
+   /* max-width: 100%; */
    margin: auto;
 }
 
@@ -130,6 +130,7 @@
 .expense-list li {
    box-shadow: var(--box-Shadow);
    padding: 1rem;
+   margin: 20px 0;
    display: flex;
    justify-content: space-between;
 }
